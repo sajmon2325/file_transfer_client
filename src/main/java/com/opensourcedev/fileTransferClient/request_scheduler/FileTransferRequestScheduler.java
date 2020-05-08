@@ -23,10 +23,12 @@ public class FileTransferRequestScheduler {
         webClientHandler.processHelpFile();
     }
 
+/*
     @Scheduled(cron = "0 * * ? * *")
     public void scheduleAllFilesRequest(){
         webClientHandler.processAllFiles();
     }
+*/
 
     @Scheduled(cron = "0 * * ? * *")
     public void scheduleSalaryRequest(){
